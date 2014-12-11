@@ -1,0 +1,22 @@
+<!-- Style 1-->
+<div id="header-nav-bar">   
+   <tabset>
+        <tab ng-repeat="item in navBar" heading="{{item.textId.display}}">
+            <ul class="nav nav-tabs">
+            <li ng-repeat="childItem in item.children"><a href="#tab1" data-toggle="tab">{{childItem.textId.display}}</a></li>
+            
+            </ul>
+        </tab> 
+       
+           <div language-selector style='float: right; margin-top: 5px; padding-right: 10px'></div>
+       
+    </tabset>
+</div>
+<!-- Style 2
+<accordion close-others="true">
+    <accordion-group ng-repeat="item in navBar" heading="{{item.displayText}}">
+        <tabset vertical="true" type="pills">
+            <tab ng-repeat="childItem in item.children" heading="{{childItem.displayText}}"></tab>  
+        </tabset>
+    </accordion-group>
+</accordion> -->
