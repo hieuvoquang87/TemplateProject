@@ -4,6 +4,65 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
+    Created on : Dec 10, 2014, 11:48:21 PM
+    Author     : hieuvo
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 16, 2014, 10:29:07 PM
+    Author     : hieuvo
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2014, 8:23:57 AM
+    Author     : hieuvo
+*/
+#header-layout1 {
+  width: 1280px;
+}
+.logo-profile-layout1 {
+  display: table-cell;
+  background-color: aqua;
+  height: auto;
+  width: auto;
+}
+.user-nav-bar {
+  display: table-cell;
+  width: 100%;
+}
+.user-bar-layout1 {
+  background-color: mintcream;
+  height: 50px;
+  margin: 0px;
+}
+.nav-bar-layout1 {
+  background-color: menu;
+  height: 80px;
+}
+#view-header {
+  background-color: lightskyblue;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.nav-bar-item-1st-level {
+  display: inline-block;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
     Created on : Nov 16, 2014, 10:34:36 PM
     Author     : hieuvo
 */
@@ -15,7 +74,6 @@ and open the template in the editor.
   width: 100%;
   height: 500px;
 }
-
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -32,51 +90,4 @@ and open the template in the editor.
   max-width: 1280px;
   width: 100%;
   height: 100px;
-}
-
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Dec 5, 2014, 8:23:57 AM
-    Author     : hieuvo
-*/
-
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Nov 16, 2014, 10:29:07 PM
-    Author     : hieuvo
-*/
-#view-header {
-  background-color: lightskyblue;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1280px;
-  width: 100%;
-}
-#header-logo-profile {
-  display: block;
-  background-color: aqua;
-  height: 100px;
-  margin: 0px;
-}
-#header-nav-bar {
-  display: block;
-  background-color: menu;
-  height: 80px;
-}
-#header-user-bar {
-  display: block;
-  background-color: mintcream;
-  height: 50px;
-  margin: 0px;
-}
-.nav-bar-item-1st-level {
-  display: inline-block;
 }

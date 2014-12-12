@@ -67,7 +67,7 @@ module.exports = function(grunt) {
                     optimization: 2
                 },
                 files: {
-                    "app/build/css/components.css": "app/src/css/components/*.less",
+                    "app/build/css/components.css": "app/src/css/components.less",
                     "app/build/css/bootstrap.css": "app/src/css/bootstrap/*.css",
                     "app/build/css/app.css": "app/src/css/app.css"
                 }
@@ -79,7 +79,7 @@ module.exports = function(grunt) {
                     optimization: 2
                 },
                 files: {
-                        "app/build/css/components.css": "app/src/css/components/*.less",
+                        "app/build/css/components.css": "app/src/css/components.less",
                         "app/build/css/bootstrap.css": "app/src/css/bootstrap/*.css",
                         "app/build/css/app.css": "app/src/css/app.css" 
                     }
@@ -94,7 +94,7 @@ module.exports = function(grunt) {
                 flatten: true,
                 filter: 'isFile'
             }
-        },
+        }, 
         watch: {
             html: {
                 files: ['./app/src/html/**/*.html'],
@@ -111,7 +111,7 @@ module.exports = function(grunt) {
                 }
             },
             css: {
-                files: ['./app/src/css/components/**/*.less'],
+                files: ['./app/src/css/less/**/*.less'],
                 tasks: ['less:debug'],
                 options: {
                     livereload: true
