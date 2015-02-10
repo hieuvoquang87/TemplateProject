@@ -1,6 +1,6 @@
 <div id="language-selector">
     <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-success" ng-repeat="item in languageSelector" ng-click="onLanguageSelected(item.language)">
+        <label class="btn btn-success language-selecting-button" ng-repeat="item in languageSelector" ng-click="onLanguageSelected(item.language)">
             <input type="radio" name="options"> {{item.textId.display}}
         </label>       
     </div>

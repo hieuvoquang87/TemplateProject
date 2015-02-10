@@ -9,8 +9,9 @@ and open the template in the editor.
 */
 
 #header-layout1 {
-    width: 1280px;
-    
+    width: 100%;
+    height: auto;
+    display: table-row;
 };
 .logo-profile-layout1{
     display: table-cell;
@@ -19,21 +20,28 @@ and open the template in the editor.
     width: auto;
     
 };
-.user-nav-bar {
-    display: table-cell;
-    width: 100%;
-    
-    
-    
-    
+.wrap-user-nav-bar {
+    display: table-cell; 
+    width: 100%; 
+    position: relative
 }
-.user-bar-layout1 {
-    background-color:  mintcream;
-    height: 50px;
-    margin: 0px;
-};
-.nav-bar-layout1 {
-    
-    background-color: menu;
-    height: 80px;
+.user-nav-bar {
+    position: absolute;
+    bottom: 0px;   
+    width: 100%;
+    .user-bar-layout1 {
+        background-color:  mintcream;
+        height: 50px;
+        margin: 0px;
+        width: 100%;
+    };
+    .nav-bar-layout1 {
+        
+        bottom: 0px;
+        background-color: menu;
+        height: 80px;
+        width: 100%;
+        
+    }
+
 }

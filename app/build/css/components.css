@@ -26,7 +26,9 @@ and open the template in the editor.
     Author     : hieuvo
 */
 #header-layout1 {
-  width: 1280px;
+  width: 100%;
+  height: auto;
+  display: table-row;
 }
 .logo-profile-layout1 {
   display: table-cell;
@@ -34,21 +36,41 @@ and open the template in the editor.
   height: auto;
   width: auto;
 }
-.user-nav-bar {
+.wrap-user-nav-bar {
   display: table-cell;
   width: 100%;
+  position: relative;
 }
-.user-bar-layout1 {
+.user-nav-bar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.user-nav-bar .user-bar-layout1 {
   background-color: mintcream;
   height: 50px;
   margin: 0px;
+  width: 100%;
 }
-.nav-bar-layout1 {
+.user-nav-bar .nav-bar-layout1 {
+  bottom: 0px;
   background-color: menu;
   height: 80px;
+  width: 100%;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 11, 2014, 10:52:10 PM
+    Author     : hieuvo
+*/
+#logo-image {
+  width: 300px;
 }
 #view-header {
-  background-color: lightskyblue;
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;

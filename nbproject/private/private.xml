@@ -2,6 +2,18 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/js/directive/utilities/languageSelector.js</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/css/components.less</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/js/service/TextProvider.js</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/css/less/header.less</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/css/app.css</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/css/less/layout/header-layout.less</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/html/components/utilities/language-selector.html</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/html/header-view.html</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/src/js/directive/header/logoProfile.js</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/Gruntfile.js</file>
+            <file>file:/Users/hieuvo/NetBeansProjects/TemplateProject/app/index.html</file>
+        </group>
     </open-files>
 </project-private>
